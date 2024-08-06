@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+    <title>Makanan</title>
+  </head>
+  <body id="body">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top" style="background-color: #7e57a3">
+      <div class="container">
+        <a class="navbar-brand">Sofi's Culinary Creations</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="makanan.html">Makanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../minuman/minuman.html">Minuman</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../snack/snack.html">Snack</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- section 1 (HEADER)-->
+    <div class="container text-center pt-5">
+      <div class="k pt-4">
+        <img src="coverr.png" alt="cover" class="img-fluid" />
+      </div>
+    </div>
+    <!-- end section 1 -->
+
+    <!-- section 2 (SEARCH)-->
+    <div class="search-container pb-3">
+      <input type="text" id="search" placeholder="Cari nama makanan..." onkeyup="searchMenu()" />
+    </div>
+    <!-- end section 2 -->
+
+    <!-- section 3 (MENU) -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-6 col-md-3 mb-4" data-name="Ayam Katsu">
+          <a href="ayam katsu/ayam katsu.html"><img src="ayam katsu/ayam katsu.png" alt="katsu" class="img-fluid img-container" width="200" /></a>
+        </div>
+        <div class="col-6 col-md-3 mb-4" data-name="Bihun Goreng">
+          <a href="bihun/bihun.html"><img src="bihun/bihun.png" alt="bihun" class="img-fluid img-container" width="200" /></a>
+        </div>
+        <div class="col-6 col-md-3 mb-4" data-name="Mie Goreng">
+          <a href="mie goreng/Mie Goreng.html"><img src="mie goreng/mie goreng.png" alt="mie goreng" class="img-fluid img-container" width="200" /></a>
+        </div>
+        <div class="col-6 col-md-3 mb-4" data-name="Omelet mie telur">
+          <a href="omelet/Omelet.html"><img src="omelet/omelet.png" alt="omelet" class="img-fluid img-container" width="200" /></a>
+        </div>
+        <div class="col-6 col-md-3 mb-4" data-name="Opor Ayam Tahu">
+          <a href="opor/Opor Ayam.html"><img src="opor/opor ayam.png" alt="opor" class="img-fluid img-container" width="200" /></a>
+        </div>
+        <div class="col-6 col-md-3 mb-4" data-name="sawi pakcoy pokchoy bawang putih">
+          <a href="pakcoy baput/pakcoy.html"><img src="pakcoy baput/pakcoy baput.png" alt="pakcoy" class="img-fluid img-container" width="200" /></a>
+        </div>
+        <div class="col-6 col-md-3 mb-4" data-name="sambel sambal tempe tahu">
+          <a href="sambal tempe/sambal tempe.html"><img src="sambal tempe/sambal tempe.png" alt="sambel tempe" class="img-fluid img-container" width="200" /></a>
+        </div>
+        <div class="col-6 col-md-3 mb-4" data-name="Semur Telur tahu">
+          <a href="semur telur/Semur Telur.html"><img src="semur telur/semur telur.png" alt="semur telur" class="img-fluid img-container" width="200" /></a>
+        </div>
+        <div class="col-6 col-md-3 mb-4" data-name="Telur Geprek">
+          <a href="telur geprek/telur geprek.html"><img src="telur geprek/telur geprek.png" alt="telur geprek" class="img-fluid img-container" width="200" /></a>
+        </div>
+        <div class="col-6 col-md-3 mb-4" data-name="Telur Teriyaki">
+          <a href="telur teriyaki/Telur Teriyaki.html"><img src="telur teriyaki/telur teriyaki.png" alt="telur teriyaki" class="img-fluid img-container" width="200" /></a>
+        </div>
+        <div class="col-6 col-md-3 mb-4" data-name="Tumis Tahu Sosis wortel">
+          <a href="tumis tahu sosis/Tumis Tahu Sosis.html"><img src="tumis tahu sosis/tumis tahu sosis.png" alt="tahu sosis" class="img-fluid img-container" width="200" /></a>
+        </div>
+        <div class="col-6 col-md-3 mb-4" data-name="ayam kecap">
+          <a href="ayam kecap/ayam kecap.html"><img src="ayam kecap/ayam kecap.png" alt="ayam kecap" class="img-fluid img-container" width="200" /></a>
+        </div>
+        <div class="col-6 col-md-3 mb-4" data-name="sayur tahu telur">
+          <a href="sayur tahu/sayur tahu.html"><img src="sayur tahu/sayur tahu.png" alt="sayur tahu" class="img-fluid img-container" width="200" /></a>
+        </div>
+        <div class="col-6 col-md-3 mb-4" data-name="tumis toge">
+          <a href="tumis toge/tumis toge.html"><img src="tumis toge/tumis toge.png" alt="tumis toge" class="img-fluid img-container" width="200" /></a>
+        </div>
+      </div>
+    </div>
+    <!-- end section 3 -->
+
+    <!-- footer -->
+    <footer class="text-white text-center pt-3 pb-1" style="background-color: #7e57a3">
+      <p>Created with <i class="bi bi-hearts"></i> by <a href="https://www.instagram.com/sofiii_ans?igsh=MXEyZXA0aW45ajA0Yw==" class="text-white fw-bold">Annisaa Sofi</a></p>
+    </footer>
+    <!-- end footer -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script>
+      function searchMenu() {
+        const input = document.getElementById("search").value.toLowerCase();
+        const menuItems = document.getElementsByClassName("col-md-3 mb-4");
+
+        for (let i = 0; i < menuItems.length; i++) {
+          const item = menuItems[i];
+          const itemName = item.getAttribute("data-name").toLowerCase();
+
+          if (itemName.includes(input)) {
+            item.style.display = "";
+          } else {
+            item.style.display = "none";
+          }
+        }
+      }
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
